@@ -46,6 +46,9 @@ $(document).ready(function () {
                         case 'thunderstorm':
                           $('body').css('background-image', 'url("image/thunderstorm.jpg")');
                           break;
+                        case 'Mist':
+                          $('body').css('background-image', 'url("image/mist.jpg")');
+                          break;
                         default:
                           $('body').css('background-image', 'url("image/clear sky.jpg")');
                       }
