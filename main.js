@@ -34,7 +34,7 @@ $(document).ready(function () {
                         $('#temp').text(result + unitC);
                         switch (weatherStatus) {
                         case 'Clouds':
-                          $('body').css('background-image', 'url("image/broken clouds.jpeg")');
+                          $('body').css('background-image', 'url("image/broken clouds.jpg")');
                           break;
                         case 'Clear':
                           $('body').css('background-image', 'url("image/clear.jpg")');
